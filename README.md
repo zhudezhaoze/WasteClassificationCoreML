@@ -191,10 +191,12 @@ class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDele
 ```
 
 **4. Test Results & Demonstration**
+
 Based on a wild range of item experiments, we conclude that the model predictions have a high accuracy on recognizing type of wastes that are included in the category. Particularly, it can accurately differentiate chopsticks from pens, even though they look similar in shape. However, it sometimes mistakes lamp with facial masks, which is likely due to the lack of diversity in training data. 
 ![IMG_7156](https://user-images.githubusercontent.com/60851886/95682626-e12bf680-0bab-11eb-9e6f-4796d0710064.JPG)
 
 **Further Improvement**
+
 Although we found that the model can accurately identify all items that are in the designated categories, the confidence of its predictions dropped significantly when the camera moves away from the obejct. It may be caused due to the training data not including object images captured from distance. Besides, the model can only recognize 20 items so far, which may show its limitations while being used to recognize and classify a variety of waste items. Thus, in the future, we decide to improve the prediction accuracy by using images that are taken from wild ranges. In addition, we will keep adding more types of waste items to the training data to allow the model to recognize a more diverse set of wastes.
 
 
