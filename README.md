@@ -1,5 +1,5 @@
 # Waste Classification App Using CoreML
-A simple yet useful IOS application that recognizes waste types and gives instructions on the garbage disposal. 
+A simple yet useful IOS application that can visually recognizes waste types and give instructions on garbage disposal. 
 
 **1. Why I Do This?**
 
