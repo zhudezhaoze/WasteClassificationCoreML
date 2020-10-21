@@ -4,7 +4,6 @@ A simple yet useful IOS application that can visually recognizes waste types and
 **1. Why I Do This?**
 
 Waste collection and rubbish disposal play an extremely important role in the global cleanliness and sustainability drive, with people’s health and the conservation of resources being the responsibility of everyone. The application uses computer vision and machine learning technology to help people to classify wastes quickly. With this mobile application, people can simply scan the waste to be disposed, and follow the instruction provided by the app to dispose the waste to the right type of garbage disposal. This is an useful and handy application especially for people who live in the countries that have evolving yet strict waste classificatin policies to comply. 
-
 ![b7d41aa04e4da12ee42f355b9c8e1b10_XL](https://user-images.githubusercontent.com/60851886/95681222-4380f900-0ba4-11eb-91e9-f22d9cf02f5f.jpg)
 
 **2. Model Training**
@@ -193,7 +192,9 @@ class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDele
 **4. Test Results & Demonstration**
 
 Based on a wild range of item experiments, we conclude that the model predictions have a high accuracy on recognizing type of wastes that are included in the category. Particularly, it can accurately differentiate chopsticks from pens, even though they look similar in shape. However, it sometimes mistakes lamp with facial masks, which is likely due to the lack of diversity in training data. 
-![IMG_7156](https://user-images.githubusercontent.com/60851886/95682626-e12bf680-0bab-11eb-9e6f-4796d0710064.JPG)
+
+![giphy](https://user-images.githubusercontent.com/60851886/96681683-4cf52880-133d-11eb-903e-30e5c5d5efee.gif)
+
 
 **5. Further Improvement**
 
